@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joget Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        
+        header {
+            background-color: #383B3A;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin: 0 1rem;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        
+        main {
+            flex: 1;
+            background-color: white;
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+        }
+        
+        main h1 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        
+        main p {
+            color: #555;
+            line-height: 1.6;
+            font-size: 1.1rem;
+        }
+        
+        footer {
+            background-color: #616161;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        
+        .footer-links {
+            margin-top: 0.8rem;
+        }
+        
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="joget-logo.png" alt="Joget Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Welcome to Joget</h1>
+        <p>Joget is a modern platform that empowers everyone to build enterprise applications quickly and easily. With its intuitive drag-and-drop interface, Joget dramatically reduces the time and cost to build full-fledged applications for any organization. Our platform combines the power of workflow automation with form building and app integration capabilities.</p>
+    </main>
+    
+    <footer>
+        <div>&copy; 2023 Joget Inc. All rights reserved.</div>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+        </div>
+    </footer>
+</body>
+</html>
